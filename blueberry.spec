@@ -12,7 +12,7 @@ BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  python
 BuildRequires:  desktop-file-utils
-Requires:       python3dist(dbus-python)
+Requires:       python-dbu
 Requires:       python3dist(pygobject)
 Requires:       python3dist(setproctitle)
 Requires:       bluez-tools
