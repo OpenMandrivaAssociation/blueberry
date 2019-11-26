@@ -18,7 +18,7 @@ Requires:       python3dist(setproctitle)
 Requires:       bluez-tools
 Requires:       gnome-bluetooth >= 3.14
 Requires:       rfkill
-Recommends       wmctrl
+Recommends:       wmctrl
 
 %description
 Utility for Bluetooth devices graphical configuration.
