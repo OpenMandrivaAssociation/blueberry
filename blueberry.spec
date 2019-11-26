@@ -1,6 +1,6 @@
 Name:           blueberry
-Version:        1.3.0
-Release:        %mkrel 1
+Version:        1.3.1
+Release:        1
 Summary:        A configuration tool for Bluetooth
 License:        GPLv3+
 Group:          Communications/Bluetooth
@@ -10,7 +10,7 @@ Source:         https://github.com/linuxmint/%{name}/archive/%{version}/%{name}-
 BuildArch:	noarch
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  hicolor-icon-theme
-BuildRequires:  python3
+BuildRequires:  python
 BuildRequires:  desktop-file-utils
 Requires:       python3dist(dbus-python)
 Requires:       python3dist(pygobject)
