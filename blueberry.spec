@@ -61,4 +61,4 @@ cp -a .%{_sysconfdir} %{buildroot}%{_sysconfdir}
 %{_datadir}/glib-2.0/schemas/org.%{name}.gschema.xml
 
 %files -n cinnamon-applet-%{name}
-%{_datadir}/cinnamon/applets/blueberry@cinnamon.org/
+#{_datadir}/cinnamon/applets/blueberry@cinnamon.org/
