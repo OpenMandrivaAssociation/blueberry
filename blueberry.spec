@@ -19,18 +19,10 @@ Requires:       bluez-tools
 Requires:       gnome-bluetooth >= 3.14
 Requires:       rfkill
 Recommends:       wmctrl
+Obsoletes:    cinnamon-applet-%{name} <= 1.3.6
 
 %description
 Utility for Bluetooth devices graphical configuration.
-
-%package -n cinnamon-applet-%{name}
-Summary:        Cinnamon applet for %{name}
-Requires:       %{name} = %{version}-%{release}
-Requires:       cinnamon
-Conflicts:      %{name} < 1.2.5-2
-
-%description -n cinnamon-applet-%{name}
-Cinnamon applet for %{name}.
 
 %prep
 %setup -q
@@ -59,6 +51,3 @@ cp -a .%{_sysconfdir} %{buildroot}%{_sysconfdir}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/*/%{name}*
 %{_datadir}/glib-2.0/schemas/org.%{name}.gschema.xml
-
-%files -n cinnamon-applet-%{name}
-#{_datadir}/cinnamon/applets/blueberry@cinnamon.org/
