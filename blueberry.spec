@@ -1,5 +1,5 @@
 Name:           blueberry
-Version:        1.4.0
+Version:        1.4.1
 Release:        1
 Summary:        A configuration tool for Bluetooth
 License:        GPLv3+
