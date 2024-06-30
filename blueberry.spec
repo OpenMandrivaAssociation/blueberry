@@ -8,6 +8,7 @@ Url:            https://github.com/linuxmint/blueberry
 Source:         https://github.com/linuxmint/%{name}/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildArch:	noarch
+BuildRequires:  gettext
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  python
